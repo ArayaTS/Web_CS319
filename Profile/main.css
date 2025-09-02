@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffcf6;
+    margin: 0;
+    padding: 0;
+    min-height: 120vh;
+    overflow-x: hidden;
+}
+
+header{
+    margin-top: 0px;
+    width: 82%;
+    padding: 2rem 9%;
+    background-color: #a9cba4b7;
+    backdrop-filter: blur(50px);
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-radius: 10px;
+}
+
+.logo{
+    font-size: 1.5rem;
+    color: #8a5114d0;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+nav a{
+    font-size: 1rem;
+    color: #8a5114d0;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #ffffff;
+}
+
+section{
+    min-height: 100vh;
+    padding: 5rem 20% 5rem;
+    background-color: #fffcf6;
+    position: relative;
+}
+
+.home-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.home-one-two img {
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 120px;
+}
+
+
+.home-one{
+    background-color: #cae4c6;
+    height: 50vh;
+    width: 30vh;
+    color: #ffffff;
+    right: 300px;
+    padding: 1rem 20% 1rem;
+    margin-right: 2rem;
+    border-radius: 40px;
+    font-size: 2rem;
+    font-weight: 900;
+    position: relative;
+    z-index: 1;
+    color: #92500ac6;
+}
+
+.home-one h1{
+    font-family: Cursive;
+    position: relative;
+    left: 100px;
+}
+
+.home-one h3{
+    font-size: 1.5rem;
+    font-family: Cursive;
+    position: relative;
+    left: 165px;
+
+}
+.home-one h3 span{
+    font-size: 1.3rem;
+    font-family: Cursive;
+    background-color: #4a6f45;
+    color: #ffffff;
+    backdrop-filter: blur(100px);
+    filter: drop-shadow(10px);
+    border-radius: 40px;
+    position: relative;
+    left: 40px;
+    padding: 0rem 1.4rem;
+    display: inline-block;
+}
+
+.home-one h3 span:hover::after {
+    content: "Araya Tsai \A Poppap \A ID: 1650703828 \A Email: araya.tsai@bumail.net \A CS319_427E";
+    position: absolute;
+    background-color: #ffffff;
+    color: #4a6f45;
+    padding: 1rem 50% 1rem;
+    border-radius: 20px;
+    top: -170px;
+    left: 100%;
+    transform: translateX(-40%);
+    white-space: pre-wrap;
+    z-index: 10;
+    font-size: 0.7rem;
+    font-family: Arial, sans-serif;
+}
+
+.home-one .home-one2{
+    background-color: #ffffff;
+    backdrop-filter: blur(100px);
+    filter: drop-shadow(10px);
+    height: 25vh;
+    width: 55vh;
+    position: relative;
+    border-radius: 40px;
+}
+
+
+.home-one-two {
+    height: 17vh;
+    width: 15vh;
+    border-radius: 40px 0px 40px 0px;
+    background-color: #92500ac6;
+    backdrop-filter: blur(50px);
+    filter: drop-shadow(10px);
+    position: absolute;
+    top: 32px;
+    left: -120px;
+    text-align: right;
+    z-index: 2;
+}
+
+.home-one-two img {
+    width: 40%;
+    height: 35%;
+    object-fit: cover;
+    border-radius: 200px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+    left: 15px;
+}
+
+.home-one-tree {
+    width: 60px;
+    height: 500px;
+    border-radius: 40px;
+    backdrop-filter: blur(50px);
+    filter: drop-shadow(10px);
+    background-color: #f9e234;
+    z-index: 3;
+    position: relative;
+    right: 950px;
+}
+
+.home-two {
+    height: 15vh;
+    width: 15vh;
+    border-radius: 30px;
+    background-color: #7b8c784e;
+    backdrop-filter: blur(20px);
+    filter: drop-shadow(200px);
+    position: relative;
+    right: 60px;
+    top: -300px;
+    z-index: 10;
+}
+
+.home-two-one img{
+    height: 15vh;
+    width: 15vh;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-top: -5px;
+    margin-left: 7px;
+    position: relative;
+}
+
+.home-tree{
+    position: relative;
+    right: 0px;
+    top: -188px;
+    z-index: 10;
+}
+
+.home-tree-one{
+    background-color: #7b8c784e;
+    backdrop-filter: blur(20px);
+    filter: drop-shadow(200px);
+    height: 15vh;
+    width: 15vh;
+    border-radius: 30px;
+    position: relative;
+    right: 60px;
+    top: -100px;
+    z-index: 10;
+}
+
+
+.home-tree-two{
+    height: 15vh;
+    width: 15vh;
+    border-radius: 30px;
+    background-color: #ffffff;
+    backdrop-filter: blur(20px);
+    filter: drop-shadow(200px);
+    position: relative;
+    right: -6px;
+    top: -5px;
+    z-index: 10;
+}
+
+.home-tree-two img{
+    height: 14vh;
+    width: 14vh;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-top: 4px;
+    margin-left: 4px;
+    position: relative;
+}
+
+.home-four{
+    align-items: center;
+    display: flex;
+    
+}
+
+.home-four-one h6{
+    color: #ffffff;
+    font-size: 0.5rem;
+    position: relative;
+    right: -90px;
+    top: -490px;
+    z-index: 11;
+}
+
+.home-four-one p{
+    color: #ffffff;
+    font-size: 1.7rem;
+    position: relative;
+    right: 120px;
+    top: -380px;
+    z-index: 11;
+    font-weight: 900;
+}
+
+.home-four-two{
+    writing-mode: vertical-rl;
+    background-color: #ffffff;
+    position: relative;
+    height: 15vh;
+    width: 3vh;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 475px;
+    top: -770px;
+    z-index: 11;
+}
+
+.home-four-tree {
+    position: relative;
+    right: 480px;
+    top: -480px;
+    z-index: 10;
+    font-size: 1rem;
+    font-family: Cursive;
+    background-color: #4a6f45;
+    color: #ffffff;
+    backdrop-filter: blur(100px);
+    filter: drop-shadow(10px);
+    border-radius: 40px;
+    padding: 0rem 1.4rem;
+    display: inline-block;
+}
+
+.home-four-four{
+    position: relative;
+    right: -40px;
+    top: -700px;
+    z-index: 11;
+    font-size: 0.7rem;
+    font-family: Cursive;
+    background-color: #ffffff;
+    color: #4a6f45;
+    backdrop-filter: blur(100px);
+    filter: drop-shadow(10px);
+    border-radius: 15px;
+    padding: 0rem 1.4rem;
+    display: inline-block;
+}
+
+.home-four-four img{
+    height: 5vh;
+    width: 5vh;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 4px;
+    position: relative;
+}
+
+.home-four-five{
+    writing-mode: vertical-rl;
+    background-color: #4a6f45;
+    position: relative;
+    height: 5vh;
+    width: 2vh;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -130px;
+    top: -770px;
+    z-index: 11;
+}
+
+.home-five{
+    position: relative;
+    height: 200px;
+    width: 300px;
+    right: -430px;
+    top: -779px;
+    background-color: #cae4c6;
+    filter: drop-shadow(20px);
+    z-index: 5;
+    border-radius: 0px 0px 50px 0px;
+}
+
+.home-six{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    right: -470px;
+    top: -979px;
+    background-color: #92500ac6;
+    backdrop-filter: blur(100px);
+    filter: drop-shadow(20px);
+    z-index: 4;
+    border-radius: 0px 40px 40px 40px;
+    
+}
+
+.home-seven{
+    height: 27vh;
+    width: 27vh;
+    border-radius: 30px;
+    background-color: #ffffff;
+    backdrop-filter: blur(20px);
+    filter: drop-shadow(200px);
+    position: relative;
+    right: -500px;
+    top: -1520px;
+    z-index: 10;
+}
+
+.home-seven img{
+    height: 26vh;
+    width: 26vh;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-top: 4px;
+    margin-left: 4px;
+    position: relative;
+}
